@@ -69,3 +69,15 @@ Git鼓励大量使用分支：
 解决冲突就是把Git合并失败的文件手动编辑为我们希望的内容，再提交。
 
 用git log --graph命令可以看到分支合并图。
+
+git push 提交失败，可以使用git pull --rebase origin master（orgin为远程库名）
+
+同时关联gitee和GitHub：
+git remote rm origin，删除已有的GitHub的origin远程库；
+
+git remote add gitee git@gitee.com:Candlia（用户名）/learngit.git;添加gitee远程库；
+git remote add origin git@gitee.com:Candlia（用户名）/learngit.git；添加GitHub远程库；
+
+使用git remote -v查看当前关联的远程库；
+
+要将本地内容提交到远程库，需要先在远程库中创建同名项目；然后添加远程库，最后git push -u gitee master，推送全部内容
