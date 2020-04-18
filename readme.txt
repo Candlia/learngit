@@ -80,4 +80,5 @@ git remote add origin git@gitee.com:Candlia（用户名）/learngit.git；添加
 
 使用git remote -v查看当前关联的远程库；
 
-要将本地内容提交到远程库，需要先在远程库中创建同名项目；然后添加远程库，最后git push -u gitee master，推送全部内容
+要将本地内容提交到远程库，需要先在远程库中创建同名项目；
+然后添加远程库，最后git push -u gitee master，推送全部内容
